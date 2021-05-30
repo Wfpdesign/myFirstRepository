@@ -1,9 +1,11 @@
-#include "sdt.h"
-// Учебная программа
-int main(){
-    int a = 0, b = 0, c=0;
-    printf("Vvedite 2 chisla");
-    scanf("%i %i", &a, $b);
-    c=a-b;
-    printf("Raznost=%i",c);
-}
+ #include "sdt.h"
+ // This program is just an example one under VCS.
+ int main()
+ {
+ int a, b;
+ cout << "Enter A and B: ";
+ cin >> a >> b;
+ cout << "A + B = " << a + b << '\n'
+ << "A - B = " << a - b << '\n'
+ << "A * B = " << a * b << '\n';
+ }
